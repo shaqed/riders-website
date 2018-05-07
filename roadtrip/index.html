@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Road Trip</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /*Loading animation*/
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+        }
+
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+        body {
+            font-family: 'Titillium Web', sans-serif;
+            background-color: #ffffff;
+        }
+
+        #container {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #container p{
+            width: 100%;
+            font-size: 2.2em;
+        }
+        #container .loader {
+            margin: 0 auto;
+        }
+        #container img {
+            padding: 5%;
+            width: 50%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-This is RoadTrip's main web site for visitors
-<img src="/assets/logo.png">
+<div id="container">
+    <p>This is RoadTrip's main web site for visitors</p>
+    <br>
+    <img src="../assets/logo.png">
+    <p onclick="loadSite()">Click here</p>
+    <div class="loader"></div>
+    <script>
+        displayDone(); // Hide element
+
+        function displayStart() {
+            $(".loader").show();
+        }
+
+        function displayDone() {
+            $(".loader").hide();
+        }
+
+        function loadSite () {
+            displayStart();
+            $.ajax({
+                url : "https://rider2.herokuapp.com",
+                complete : function (e) {
+                    displayDone();
+                }
+            })
+        }
+    </script>
+</div>
 </body>
 </html>

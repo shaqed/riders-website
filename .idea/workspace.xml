@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef65ef03-6739-42c7-b25a-2f96f1a6d196" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/roadtrip/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Riders/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Riders/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Riders/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Riders/map_js.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/roadtrip/index.html" afterPath="$PROJECT_DIR$/roadtrip/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,9 +30,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roadtrip/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +99,11 @@
             <path>
               <item name="shaqed.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaqed.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaqed.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaqed.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="roadtrip" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -114,6 +117,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\project\website\shaqed.github.io\assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,12 +153,27 @@
       <workItem from="1521410033495" duration="634000" />
       <workItem from="1521439860443" duration="1369000" />
       <workItem from="1522745632202" duration="58000" />
-      <workItem from="1525670110817" duration="99000" />
+      <workItem from="1525670110817" duration="4367000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed the Riders folder, changed it to roadtrip and that's where the redirection will be">
+      <created>1525670240061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525670240061</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed the Riders folder, changed it to roadtrip and that's where the redirection will be">
+      <created>1525670788545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525670788545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6106000" />
+    <option name="totallyTimeSpent" value="10374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -180,6 +203,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed the Riders folder, changed it to roadtrip and that's where the redirection will be" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the Riders folder, changed it to roadtrip and that's where the redirection will be" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -284,9 +311,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roadtrip/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
