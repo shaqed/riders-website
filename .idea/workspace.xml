@@ -30,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roadtrip/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="297">
+              <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -153,7 +153,7 @@
       <workItem from="1521410033495" duration="634000" />
       <workItem from="1521439860443" duration="1369000" />
       <workItem from="1522745632202" duration="58000" />
-      <workItem from="1525670110817" duration="4367000" />
+      <workItem from="1525670110817" duration="4623000" />
     </task>
     <task id="LOCAL-00001" summary="Removed the Riders folder, changed it to roadtrip and that's where the redirection will be">
       <created>1525670240061</created>
@@ -169,11 +169,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525670788545</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Click on the link to load the heroku app&#10;Later we'll add redirections">
+      <created>1525674813107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525674813107</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10374000" />
+    <option name="totallyTimeSpent" value="10630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -206,7 +213,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed the Riders folder, changed it to roadtrip and that's where the redirection will be" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed the Riders folder, changed it to roadtrip and that's where the redirection will be" />
+    <MESSAGE value="Click on the link to load the heroku app&#10;Later we'll add redirections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Click on the link to load the heroku app&#10;Later we'll add redirections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -311,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roadtrip/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="297">
+          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
