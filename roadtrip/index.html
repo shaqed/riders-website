@@ -101,9 +101,11 @@
         function loadSite () {
             displayStart();
             $.ajax({
-                url : "https://rider2.herokuapp.com",
+                url : "https://riders2.herokuapp.com",
                 complete : function (e) {
                     displayDone();
+                    // go to site
+                    window.location = "https://riders2.herokuapp.com";
                 }
             })
         }
